@@ -33,7 +33,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav_item">
-              <a href="#home" class="nav__link">Home</a>
+              <a href="#home" class="nav__link active-link">Home</a>
             </li>
             <li class="nav_item">
               <a href="#about" class="nav__link">About</a>
@@ -54,8 +54,12 @@
           </div>
         </div>
 
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="ri-menu-line"></i>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
         </div>
       </nav>
     </header>
@@ -271,7 +275,7 @@
 
       <!--========================== QUESTIONS ==========================-->
       <section class="questions section" id="faqs">
-        <h2 class="section__title-center question__title container">
+        <h2 class="section__title-center questions__title container">
           Some questions that <br> were oftenly asked
         </h2>
 
@@ -511,9 +515,12 @@
     </footer>
 
     <!--========================== SCROLL UP ==========================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
 
     <!--========================== SCROLL REVEAL ==========================-->
-    <script src=""></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
     <!--========================== MAIN JS ==========================-->
     <script src="assets/js/main.js"></script>
   </body>
